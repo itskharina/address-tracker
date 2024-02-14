@@ -57,12 +57,20 @@ header button {
   border-radius: 20px;
   margin: -170px auto 0 auto;
 }
+.info h2 {
+  letter-spacing: 0.1rem;
+}
+.info p {
+  word-wrap: break-word;
+  color: hsl(0, 0%, 17%);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 .info .container {
   height: 80%;
   font-size: 0.6rem;
   color: hsl(0, 0%, 59%);
   margin: 0;
-  letter-spacing: 0.1rem;
   width: 20%;
 }
 .info hr {

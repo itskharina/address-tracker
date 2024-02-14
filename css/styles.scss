@@ -66,12 +66,22 @@ header {
     border-radius: 20px;
     margin: -170px auto 0 auto;
 
+    h2 {
+        letter-spacing: 0.1rem;
+    }
+
+    p {
+        word-wrap: break-word;
+        color: $darkgrey;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
     .container {
         height: 80%;
         font-size: 0.6rem;
         color: $grey;
         margin: 0;
-        letter-spacing: 0.1rem;
         width: 20%;
     }
 
